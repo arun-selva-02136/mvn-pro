@@ -455,7 +455,7 @@ form span:after {
     <div class="row  align-items-center">
       <div class=" col-md-7  d-md-block">
         <div class="container-xxl text mx-auto">
-          <p class="onestep">One Step Solution to</p>
+          <p class="onestep">Cloud Garage LLP</p>
           <h1 class="no-inherit ps-5" style="font-size:70px">DevOps <span>Cloud Services,</span></h1>
           <p class="since2023 pt-2" style="color:gray">Since 2023 we help in services providers.</p>
         </div>
