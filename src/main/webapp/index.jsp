@@ -502,27 +502,6 @@ form span:after {
                 <div class="form-group row justify-content-center pt-3 mb-4">
                   <button type="submit" id="btn" class="btn text-center" onclick="submitForm()"><b>Login</b></button>
                 </div>
-
-                <div class="row" style="text-align:center;">
-                  {% with messages = get_flashed_messages(with_categories=true) %}
-                  {% for category, message in messages %}
-                  {% if category == 'danger' %}
-                  <div style="color: red;">{{ message }}</div>
-                  {% endif %}
-                  {% endfor %}
-                  {% endwith %}
-                </div>
-
-                <div class="row" style="text-align:center;">
-                  {% with messages = get_flashed_messages(with_categories=true) %}
-                  {% for category, message in messages %}
-                  {% if category == 'info' %}
-                  <div style="color: black;">{{ message }}</div>
-                  {% endif %}
-                  {% endfor %}
-                  {% endwith %}
-                </div>
-
                 <footer class="">
                   <span>or</span>
                   <div class="footer mt-4">
